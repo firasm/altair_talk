@@ -1,9 +1,20 @@
-## Welcome!
+## README
 
-## Recommended: [Click here](https://ubc.syzygy.ca/jupyter/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Ffirasm%2Faltair_talk&urlpath=tree%2Faltair_talk%2FLecture.ipynb) to download the lecture notes and code along!
+Requirements:
 
-The link above will direct you to ubc.syzygy.ca and ask you to authenticate via your CWL. If this is your first time using syzygy, you may have to click on the link twice (apologies)!
+- Install jupyter_contrib_nbextensions:
+	- `pip install jupyter_contrib_nbextensions` OR 
+	- `conda install -c conda-forge jupyter_contrib_nbextensions`
 
-## Backup: using google authentication
+- Install Javascript and CSS files
+	- `jupyter contrib nbextension install --user`
 
-If you cannot get CWL authentication to work, you can try using [this link](https://pims.syzygy.ca/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Ffirasm%2Faltair_talk&urlpath=tree%2Faltair_talk%2FLecture.ipynb&branch=master) to authenticate with a Google Account
+- Install jupyter_nbextensions_configurator
+	- `pip install jupyter_nbextensions_configurator` and `jupyter nbextensions_configurator enable --user`
+	- `conda install -c conda-forge jupyter_nbextensions_configurator`
+
+- Enable the "Split Cells Notebok", see image below
+
+![img.png]
+
+The instructions above are outlined in detailed [here](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html).
